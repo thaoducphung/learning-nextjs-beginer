@@ -16,7 +16,7 @@ export default function FirstPost() {
           }
         />
       </Head>
-      <h1>First Post</h1>
+      <h1 className="text-2xl">First Post</h1>
       <h2>
         <Link href="/">Back to home</Link>
       </h2>
