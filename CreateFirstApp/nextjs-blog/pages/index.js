@@ -28,6 +28,10 @@ export default function Home() {
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
+          <div className={styles.card}>
+            Read <Link href="/my-profile">My profile</Link>
+          </div>
+
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Learn &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
